@@ -1,6 +1,7 @@
 # Setting up my Mac Terminal
 
 ## Install Homebrew
+
 Open up a terminal window and install homebrew with the following command:
 
 ```
@@ -8,16 +9,16 @@ Open up a terminal window and install homebrew with the following command:
 ```
 
 ## Add Homebrew To Path
-After installing, add it to the path (replace ”[username]” with your actual username):
 
+After installing, add it to the path (replace ”[username]” with your actual username):
 
 ```
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/[username]/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-
 ## Install iTerm2
+
 To install, run:
 
 ```
@@ -27,6 +28,7 @@ brew install --cask iterm2
 Switch to iTerm2 for the remainder of this walkthrough.
 
 ## Install Git
+
 If you don’t have it installed, install git as well:
 
 ```
@@ -34,6 +36,7 @@ brew install git
 ```
 
 ## Install Oh My Zsh
+
 Run this to install Oh My Zsh:
 
 ```
@@ -41,6 +44,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 
 ## Install PowerLevel10K Theme for Oh My Zsh
+
 Run this to install PowerLevel10K:
 
 ```
@@ -60,9 +64,11 @@ source ~/.zshrc
 ```
 
 ## Install Meslo Nerd Font
+
 Install the font by pressing “y” and then quit iTerm2.
 
 ## Update VSCode Terminal Font (Optional)
+
 Open settings.json and add this line:
 
 ```
@@ -70,6 +76,7 @@ Open settings.json and add this line:
 ```
 
 ## Configure PowerLevel10K
+
 Restart iTerm2. You should now be seeing the PowerLevel10K configuration process. If you don’t, run the following:
 
 ```
@@ -98,9 +105,10 @@ curl https://raw.githubusercontent.com/khalilm1906/dev-environment-files/main/co
 5. Import the downloaded color profile (coolnight)
 6. Select the color profile (coolnight)
 
-You can find other themes here: [Iterm2 Color Schemes](https://www.josean.com/posts/terminal-setup#:~:text=Iterm2%20Color%20Schemes)
+You can find other themes here: [Iterm2 Color Schemes](https://iterm2colorschemes.com/)
 
 ## Install ZSH Plugins
+
 Install zsh-autosuggestions:
 
 ```
